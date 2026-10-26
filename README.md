@@ -1,9 +1,9 @@
 # Lab-Exercise---1---Caesar-Cipher
-**Aim:**
+# Aim:
 To design, implement, and test a Python program that performs data encryption and decryption using the Caesar Cipher substitution technique.
 
 
-**Procedure**
+# Procedure:
 1. User Selection: Prompt the user to select either Encryption (e) or Decryption (d).
 2. Data Gathering: Prompt the user to enter the plaintext/ciphertext message and the numerical shift key value.
 3. Key Optimization: Apply a modulo operations (% 26) to the shift value to seamlessly handle keys greater than 26.
@@ -12,9 +12,9 @@ To design, implement, and test a Python program that performs data encryption an
 New Character=(Current Character-Base ASCII+Shift)(mod 26)+Base ASCII
 6. Output Generation: Append the modified characters together and print the final string result to the terminal display.
 
-**output**
+# output:
 
 <img width="532" height="592" alt="image" src="https://github.com/user-attachments/assets/42b41f04-0fb5-4cb7-b07c-b279309f7cae" />
 
-**Result**
+# Result:
 The Caesar Cipher script was successfully implemented and verified. 
